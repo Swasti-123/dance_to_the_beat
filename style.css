@@ -1,0 +1,57 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+p{
+    background-color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.copy_right_footer{
+    bottom: 2;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    text-shadow: 5px 5px 5px rgb(120, 126, 131);
+    line-height: 2;
+    font-size: 20px;
+}
+
+.main .btn{
+background-color:lightgreen;
+font-weight: bold;
+letter-spacing: 2px;
+border: rgb(1, 1, 53) 3px ridge;
+}
+
+h2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    height:80px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    text-shadow: -4px 4px #ef3550,
+     -8px 8px #f48fb1,
+     -12px 12px #7e57c2,
+     -16px 16px #2196f3,
+     -20px 20px #26c6da,
+     -24px 24px #43a047, 
+     -28px 28px #eeff41, 
+     -32px 32px #f9a825, 
+     -36px 36px #ff5722;}
+}
+
+#note{
+    color: red;
+    
+}
+
+#result_label , #result_confidence{
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-size: 40px;
+} 
